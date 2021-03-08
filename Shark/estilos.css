@@ -201,26 +201,82 @@ form .form-group .form-control::placeholder{
 /***************************Footer*************************/
 
 
+.footer{
+  background: #0E3B43;
+  height: 35vh;
+  /*display: flex;*/
+  width: 100%;
+  
+}
+
+
+
+.footer .row .box {
+  margin: 0px auto;
+}
+
+.footer .row .box h2{
+  color: white;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  margin-top: 10vh;
+
+}
+
+.footer .row .box .socialNetworks{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.footer .row .box .socialNetworks i{
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: 0px 8px;
+  padding: 15px;
+}
+
+.footer .row .left .text{
+  color: white;
+  font-weight: bold;
+  font-size: 95%;
+  margin-left: 15px;
+  
+}
+
+.footer .row .left .lugar, .footer .row .left .telefono{
+  margin-top: 20px;
+}
+
+.footer .row .left i{
+  color: white;
+  font-size: 95%;
+}
 
 
 
 
-
-
-.footer footer{
+/**Beguin Copyright**************************************************/
+footer{
   background: gray;
+  height: 6vh;
 
 }
 
-.footer footer p{
+footer p{
    text-align: center;
-   color: #fff
+  color: #fff;
+  padding-top: .7%;
 }
 
-.footer footer p .fa-copyright{
+footer p .fa-copyright{
   margin: 0px .5%;
+
 }
 
 
 /***************************Termina el Footer*************************/
-

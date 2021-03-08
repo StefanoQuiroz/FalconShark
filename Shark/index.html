@@ -26,10 +26,10 @@
             <a class="nav-link" href="#portafolio_current">Portafolio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="#Nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#Contacto">Contacto</a>
             </li>
         </ul>
         </div>
@@ -62,7 +62,7 @@
         </div> 
     </div>
 
-    <div class="Info">
+    <div class="Info" id = "Nosotros">
         <div class = "texto">
             <h2 class="nombre">Sobre Nosotros</h2>
             <hr>
@@ -77,7 +77,7 @@
     </div>
 
 
-    <form>
+    <form id = "Contacto">
         <h1>Contacto</h1>
         <hr>
         <div class="form-group">
@@ -108,30 +108,41 @@
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
 
-    <div class="footer" id="FooterID">
+    <div class="footer" id = "Footer">
            
         <div class="row">
             <div class="col-md-6 d-flex align-items-stretch">
-                <h2>Dirección</h2>
-                <p>Quimera 3r piso</p>
+                <div class ="left box">
+                    <h2>Dirección</h2>
+                    <div class = "lugar">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="text">Quimera 3r piso</i>
+                    </div>
+                    <div class = "telefono">
+                        <i class="fas fa-phone-alt"></i>
+                        <i class="text">993 406 228</i>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
-                <h2>En las redes</h2>
-                <div class="socialNetworks">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-whatsapp"></i>
-                    <i class="fab fa-twitter"></i>
+                <div class = "right box">
+                    <h2>En las redes</h2>
+                    <div class="socialNetworks">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
                 </div>
-               
             </div>
-
         </div>
         
-        <footer>
-            <p>Copyright <i class="far fa-copyright"></i> FalconShark 2021 </p>
-        </footer>
+        
     </div>
+
+    <footer>
+        <p>Copyright <i class="far fa-copyright"></i> FalconShark 2021 </p>
+    </footer>
 
 
     <script src="https://kit.fontawesome.com/26beac1ff1.js" crossorigin="anonymous"></script>
